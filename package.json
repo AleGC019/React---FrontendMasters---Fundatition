@@ -21,6 +21,7 @@
     "@tanstack/router-devtools": "^1.65.0",
     "@tanstack/router-plugin": "^1.65.0",
     "@vitejs/plugin-react": "^4.3.1",
+    "babel-plugin-react-compiler": "^19.0.0-beta-40c6c23-20250301",
     "eslint": "^9.9.1",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react": "^7.37.1",
@@ -31,7 +32,7 @@
   "dependencies": {
     "@tanstack/react-query": "^5.59.13",
     "@tanstack/react-router": "^1.65.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react": "^19.0.0-rc.1",
+    "react-dom": "^19.0.0-rc.1"
   }
 }

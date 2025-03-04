@@ -1,9 +1,9 @@
-import { useContext } from "react";
+import { use } from "react";
 import { CartContext } from "../../../contexts/contexts";
 import { Link } from "@tanstack/react-router";
 
 const Header = () => {
-  const [cart] = useContext(CartContext);
+  const [cart] = use(CartContext);
 
   return (
     <nav>
